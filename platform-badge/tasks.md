@@ -2,23 +2,7 @@
 
 ## Demonstrate Git Proficiency
 
-* Install and configure Git on your local development machine
-
-* Initialize a new repository
-
-* Add a file and commit it to the repository
-
-* Modify that file and commit it to the repository again
-
-* Squash the two commits into one commit
-* Create a branch
-
-* Modify a file on the branch and commit it
-
-* Merge the branch back into the master branch
-
-* Delete the branch you just merged into master.
-* Add a remote origin to the repository
+See ./demonstrateGitProficiency.md
 
 ## Demonstrate Github Proficiency
 
