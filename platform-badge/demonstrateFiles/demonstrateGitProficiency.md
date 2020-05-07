@@ -1,6 +1,7 @@
 # Demonstrate Git Proficiency
 
-## Tasks:'* Install and configure Git on your local development machine
+## Tasks:
+* Install and configure Git on your local development machine
 
 * Initialize a new repository
 
