@@ -14,21 +14,7 @@ See **./demonstrateMavenProficiency.md**
 
 ## Demonstrate Monitoring proficiency
 
-* Explain what Splunk is
-* Explain what a Source, Source Type, Host, Index are
-* Write a Splunk query that uses two search criteria
-* Write a Splunk query that shows cpu usage, netstat, and disk-space.  Can you find this information for your servers?
-* Write a Splunk query that shows the results of a build that was started by you or members of your team.
-* Display the metrics in a graph/chart
-* Write an alert that uses data from Splunk
-    * Create a Splunk alert that sends email when it is fired and display the alert it generated.
-    * Discuss how to create an alert that will fire when a system experiences abnormal traffic patterns.
-* Explain what AppDynamics is
-* Explain Applications and Tiers
-* Locate your team's running servers within AppDynamics
-* Configure an AppDynamics alert
-    * Choose useful metrics (stack depth, memory, cpu, etc)
-    * Set the alert to send an email to your team if the chosen metric crosses a threshold.
+See **./splunkProficiency.md**
 
 ## Demonstrate knowledge of Continuous Delivery
 
