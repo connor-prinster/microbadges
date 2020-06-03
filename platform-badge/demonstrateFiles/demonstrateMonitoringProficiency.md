@@ -17,8 +17,8 @@
     * Choose useful metrics (stack depth, memory, cpu, etc)
     * Set the alert to send an email to your team if the chosen metric crosses a threshold.
 
-## Steps to Complete
-### **What Is Splunk?**
+## SPLUNK TASKS
+### What Is Splunk?
 Splunk is a tool that analyzes data for trends or certain parameters we specify. Splunk watches your application and keeps notes of what happened from time *x* to time *y*. You can query Splunk for a certain keyword at a certain time or a certain place and retrieve data satifying those requirements. 
 
 ### What is a Source, Source Type, Host, Index?
@@ -29,5 +29,11 @@ Splunk is a tool that analyzes data for trends or certain parameters we specify.
 
 ### Write a Splunk query with two search criteria:
 ```
-artifact-manager contributorId > 1000 status = 200
+host=photos-artifact-manager-beta* status=200 AND method=GET
 ```
+
+### Write a Splunk query that shows cpu usage, netstat, and disk-space. Can you find this information for your servers?
+```
+jj
+```
+
