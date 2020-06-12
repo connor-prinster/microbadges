@@ -34,6 +34,29 @@ host=photos-artifact-manager-beta* status=200 AND method=GET
 
 ### Write a Splunk query that shows cpu usage, netstat, and disk-space. Can you find this information for your servers?
 ```
-jj
+index=os AND host=photos-artifact-manager-* AND (source=vmstat OR source=top OR source=netstat OR source=cpu)
 ```
 
+### Write a Splunk query that shows the results of a build that was started by you or members of your team.
+
+```
+blueprint_name=photos-artifact-manager job_name=photos-artifact-manager-validate*
+```
+
+### Display the metrics in a graph/chart
+see `../visuals/bar_graph_status.png`
+
+### Write an alert that uses data from Splunk
+* Create a Splunk alert that sends email when it is fired and display the alert it generated.
+***I can show you this***
+* Discuss how to create an alert that will fire when a system experiences abnormal traffic patterns.
+    * find the average traffic running  
+        * this can include things like how many successes or failures
+    * if there is something that is running far and above this average(especially with errors), email whoever
+
+### Explain what AppDynamics is
+### Explain Applications and Tiers
+### Locate your team's running servers within AppDynamics
+### Configure an AppDynamics alert
+* Choose useful metrics (stack depth, memory, cpu, etc)
+* Set the alert to send an email to your team if the chosen metric crosses a threshold.
