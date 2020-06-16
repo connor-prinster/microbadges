@@ -12,6 +12,8 @@ see **./demonstrateGitHubProficiency.md**
 
 See **./demonstrateMavenProficiency.md**
 
+***Has a todo***
+
 ## Demonstrate Monitoring proficiency
 
 See **./demonstrateMonitoringProficiency.md**
@@ -22,36 +24,13 @@ See **./demonstrateContinuousDeliveryProficiency**
 
 ## Demonstrate Amazon Web Services proficiency
 
-* What is Amazon Web Services?
-* Describe what the acronyms SaaS-IaaS-PaaS mean.
-* Demonstrate logging into the playground-fh2 AWS account with the SuperAdmin role via the [FamilySearch AWS Portal](https://fhconfluence.churchofjesuschrist.org/display/DPT/Engineering+Tools+Portal+-+AWS+Access).
-* Demonstrate basic knowledge of AWS's pricing and how to find information on it
-    * Describe when you would want to use each of the three EC2 instance classes. (General purpose, compute-optimized, and memory-optimized)
-    * How much does it cost to run a c4.xlarge instance for 1 year?
-    * How does AWS charge ElasticBeanstalk usage?
-* Explain what reserved instances are and how they reduce AWS expenses.
+See **./demonstrateAwsProficency.md**
 
-* Demonstrate AWS Cloudwatch monitoring and create an alarm for one of the machines in the playground-fh2 VPC.  (ex: high CPU usage, high disk-space usage, etc)
-
+***has a todo***
 
 ## Demonstrate PaaS proficiency
 
-* Create a simple application using the PaaS Platform blueprint in the Dev-FH5 VPC.Explain what "A-B Deploy" and "In-Place Update" mean.  What are some of the differences between the two?
-    * [Tutorial - Create a Simple Platform App](https://fhconfluence.churchofjesuschrist.org/display/DPT/Tutorial+-+Create+a+Simple+Platform+App)
-* Using the blueprint created in the previous step, point out the location of:
-* Your application's public/private configuration
-    * Instance Types you are using
-    * Scaling parameters
-    * TTL
-    * Instance Tagging
-* Bad blueprint syntax - how to find the definition and also how to find examples
-    * Create a blueprint file and validate using the blueprint checker found here: [Is there a way to check my blueprint prior to committing my code?](https://fhconfluence.churchofjesuschrist.org/questions/65540828/is-there-a-way-to-check-my-blueprint-prior-to-committing-my-code)
-    * [Blueprint Schema - Version 1.0](https://fhconfluence.churchofjesuschrist.org/display/DPT/Blueprint+Schema+-+Version+1.0)
-* How to diagnose deploy failures in AWS
-    * Go to a build failure in EC, you can find a workflow failure id
-    * AWS Console - search for workflow with that id has lots of additional details
-    * Splunk - search for workflow by that blueprint name (add to splunk section)
-    * [Confluence Questions](https://fhconfluence.churchofjesuschrist.org/questions)
+See **./demonstratePaasProficiency**
 
 
 ## Software Authentication Service

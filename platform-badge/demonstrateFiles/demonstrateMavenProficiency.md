@@ -25,4 +25,4 @@
 * added a test-scoped dependency (junit)
 * build the project
 * configure a plugin
-## NEED A PROFILE
+## TODO NEED A PROFILE
