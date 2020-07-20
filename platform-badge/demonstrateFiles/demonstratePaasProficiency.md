@@ -2,8 +2,12 @@
 
 ## Tasks
 
-* Create a simple application using the PaaS Platform blueprint in the Dev-FH5 VPC.Explain what "A-B Deploy" and "In-Place Update" mean.  What are some of the differences between the two?
-    * [Tutorial - Create a Simple Platform App](https://fhconfluence.churchofjesuschrist.org/display/DPT/Tutorial+-+Create+a+Simple+Platform+App)x
+* Explain what "A-B Deploy" and "In-Place Update" mean.  What are some of the differences between the two?
+    * A-B Deploy: While version *A* is still running, a subset of users see version *B* under certain conditions.
+    * In-Place Update: updating certain number of instances at a time. 
+    * differences: it's harder to do A-B if you don't have excess instances you can spin up.
+* Create a simple application using the PaaS Platform blueprint in the Dev-FH5 VPC.
+    * [Tutorial - Create a Simple Platform App](https://fhconfluence.churchofjesuschrist.org/display/DPT/Tutorial+-+Create+a+Simple+Platform+App)
 * Using the blueprint created in the previous step, point out the location of:
 * Your application's public/private configuration
     * Instance Types you are using
